@@ -1,0 +1,73 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: flex start;
+  margin-top: 40px;
+}
+
+.btn-apply {
+  display: inline-block;
+  background-color: rgb(153, 21, 173);
+  padding: 16px 40px;
+  border-radius : 50px;
+  color: white;
+}
+
+.btn-apply:hover{
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.middle-text {
+  text-align: center;
+  margin: 0px;
+}
+
+.card-model {
+  width: 200px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgb(203, 248, 201);
+  text-align:center;
+  padding: 20px;
+  border: 1px solid lightgray;
+  margin-bottom: 15px;
+}
+
+.cards img{
+  width: 100px;
+  object-fit: cover;
+  overflow: hidden;
+  padding : 30px;
+}
+.last-box{
+  padding: 5rem 0;
+  background-image: url(../../images/landingpage.png);
+}
+
+.media-link{
+  font-size: 50px;
+  color: rgb(193, 33, 218);
+  width: 1.25em;
+}
+.link-container{
+  width: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.whitecolor{
+  color: white;
+}
+.black-background {
+  background-color: rgb(54, 54, 54);
+}
